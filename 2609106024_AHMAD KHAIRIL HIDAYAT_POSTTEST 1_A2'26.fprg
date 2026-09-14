@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2609106024_AHMAD KHAIRIL HIDAYAT_POSTTEST 1_A2'26"/>
+        <attribute name="authors" value="asust"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-11 10:36:29 PM"/>
+        <attribute name="created" value="YXN1c3Q7RUwtQkFNQk9ORzsyMDI2LTA5LTEwOzEyOjQzOjI5IFBNOzI1Mzc="/>
+        <attribute name="edited" value="YXN1c3Q7RUwtQkFNQk9ORzsyMDI2LTA5LTExOzEwOjM2OjI5IFBNOzM7MjY0OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Jarak" type="Real" array="False" size=""/>
+            <declare name="KapasitasTangki" type="Real" array="False" size=""/>
+            <declare name="TotalBiaya" type="Real" array="False" size=""/>
+            <output expression="&quot;berapa total jarak yang anda tempuh (dalam satuan meter)&quot;" newline="True"/>
+            <input variable="Jarak"/>
+            <while expression="Jarak&lt;=0">
+                <if expression="Jarak=0">
+                    <then>
+                        <output expression="&quot;Anda tidak bergerak, Ulangi inputan anda!&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Input tidak valid, silakan ulangi inputan anda!&quot;" newline="True"/>
+                    </else>
+                </if>
+                <input variable="Jarak"/>
+            </while>
+            <assign variable="Jarak" expression="Jarak/1000"/>
+            <output expression="&quot;Total jarak anda adalah &quot; &amp; Jarak &amp; &quot; KM&quot;" newline="True"/>
+            <output expression="&quot;Berapa kapasitas tangki mobil anda (dalam satuan L)&quot;" newline="True"/>
+            <input variable="KapasitasTangki"/>
+            <while expression="KapasitasTangki&lt;=0">
+                <output expression="&quot;Tidak Bisa Dikategorikan, Silakan Input ulang!&quot;" newline="True"/>
+                <output expression="&quot;Berapa kapasitas tangki mobil anda (dalam satuan L)&quot;" newline="True"/>
+                <input variable="KapasitasTangki"/>
+            </while>
+            <assign variable="TotalBiaya" expression="KapasitasTangki*10000"/>
+            <output expression="&quot;Total biaya yang harus anda keluarkan untuk mengisi tangki secara full adalah &quot; &amp; TotalBiaya &amp; &quot; Rp&quot;" newline="True"/>
+            <if expression="TotalBiaya&lt;=150000">
+                <then>
+                    <output expression="&quot;Mobil anda tergolong Orang Hemat&#55357;&#56397;, hemat pangkal kaya&#55357;&#56504;&#55357;&#56501;&#55357;&#56498;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="TotalBiaya&gt;400000">
+                        <then>
+                            <output expression="&quot;Mobil Boros(orang HAVE!)&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Mobil anda standar standar aja&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
