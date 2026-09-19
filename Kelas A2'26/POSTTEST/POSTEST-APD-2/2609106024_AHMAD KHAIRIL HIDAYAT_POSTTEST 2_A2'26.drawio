@@ -1,0 +1,90 @@
+<mxfile host="Electron" pages="2">
+  <diagram name="Page-1" id="2yI_dy-6osw7xfdZ0J_5">
+    <mxGraphModel dx="929" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-3" edge="1" parent="1" source="Fj-F3hpoLIpwQG8hQe5_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fj-F3hpoLIpwQG8hQe5_-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Start&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="330" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-5" edge="1" parent="1" source="Fj-F3hpoLIpwQG8hQe5_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fj-F3hpoLIpwQG8hQe5_-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-2" parent="1" style="whiteSpace=wrap;html=1;" value="Bagasi = [12, 18, 7, 15, 20, 10]&lt;br&gt;&lt;div&gt;NIM = 24&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="205" x="287.5" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-7" edge="1" parent="1" source="Fj-F3hpoLIpwQG8hQe5_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fj-F3hpoLIpwQG8hQe5_-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-4" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;Hitung Total Berat&lt;/div&gt;&lt;div&gt;Total_Berat_Akhir = Bagasi [0]+Bagasi [1]+Bagasi [2]+Bagasi [3]+Bagasi [4]+Bagasi [5]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="480" x="150" y="197" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-9" edge="1" parent="1" source="Fj-F3hpoLIpwQG8hQe5_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fj-F3hpoLIpwQG8hQe5_-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-6" parent="1" style="whiteSpace=wrap;html=1;" value="Mengubah Kilogram ke Gram&lt;div&gt;Total_Berat_Fix = Total_Berat_Akhir*1000&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="240" x="270" y="277" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-32" edge="1" parent="1" source="Fj-F3hpoLIpwQG8hQe5_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fj-F3hpoLIpwQG8hQe5_-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-8" parent="1" style="whiteSpace=wrap;html=1;" value="Hitung Kompensasi&amp;nbsp;&lt;div&gt;Kompensasi = Total_Berat_Akhir*5/100&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="300" x="240" y="357" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-13" edge="1" parent="1" source="Fj-F3hpoLIpwQG8hQe5_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fj-F3hpoLIpwQG8hQe5_-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-10" parent="1" style="whiteSpace=wrap;html=1;" value="Jumlah_Data = len (Bagasi)" vertex="1">
+          <mxGeometry height="50" width="162.5" x="308.75" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-23" edge="1" parent="1" source="Fj-F3hpoLIpwQG8hQe5_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fj-F3hpoLIpwQG8hQe5_-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-12" parent="1" style="whiteSpace=wrap;html=1;" value="Hitung Rata Ratanya&lt;div&gt;Rata_Rata = Total_Berat_Akhir/Jumlah_Data&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="205" x="287.5" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-25" edge="1" parent="1" source="Fj-F3hpoLIpwQG8hQe5_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fj-F3hpoLIpwQG8hQe5_-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-22" parent="1" style="whiteSpace=wrap;html=1;" value="Bolean = NIM &amp;lt; Rata_Rata" vertex="1">
+          <mxGeometry height="50" width="120" x="330" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-24" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Tampilkan (Total_Berat_Fix, Kompensasi, Jumlah_Data, Rata_Rata, Bolean)" vertex="1">
+          <mxGeometry height="85" width="180" x="300" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;End&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="330" y="994" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-30" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389.81" y="954" as="sourcePoint" />
+            <mxPoint x="389.81" y="994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-38" edge="1" parent="1" source="Fj-F3hpoLIpwQG8hQe5_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fj-F3hpoLIpwQG8hQe5_-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-31" parent="1" style="whiteSpace=wrap;html=1;" value="Menghitung Berat Akhir ditambahkan Kompensasi&lt;div&gt;Total_Berat_Akhir_Dengan_Kompensasi_KG = Total_Berat_Akhir+Kompensasi&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="451.25" x="164.38" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-40" edge="1" parent="1" source="Fj-F3hpoLIpwQG8hQe5_-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fj-F3hpoLIpwQG8hQe5_-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj-F3hpoLIpwQG8hQe5_-37" parent="1" style="whiteSpace=wrap;html=1;" value="Konversikan Total Berat yang Sudah dijumlah Menjadi Gram&lt;div&gt;Total_Berat_Akhir_Dengan_Kompensasi =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Total_Berat_Akhir_Dengan_Kompensasi_KG*1000&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="630" x="75" y="530" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MM4n5aCUcMW0QQk5vykS" name="Page-2">
+    <mxGraphModel dx="1144" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
